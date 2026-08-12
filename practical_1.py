@@ -10,6 +10,7 @@ print("b =", b, "Type:", type(b))
 print("x =", x, "Type:", type(x))
 print("name =", name, "Type:", type(name))
 print("flag =", flag, "Type:", type(flag))
+
 #output:
 '''~~~~~~ VARIABLES AND DATA TYPES ~~~~~~
    a = 9 Type: <class 'int'>
@@ -28,6 +29,7 @@ print("a / b =", a / b)
 print("a // b =", a // b)
 print("a % b =", a % b)
 print("a ** b =", a ** b)
+
 #output:
 '''enter a:5
    enter b:2
@@ -51,6 +53,7 @@ c *= 2
 print("c *= 2 =", c)
 c /= 3
 print("c /= 3 =", c)
+
 #output:
 '''~~~~~~ ASSIGNMENT OPERATORS ~~~~~~
    Initial c = 9
@@ -68,6 +71,7 @@ print("a > b  :", a > b)
 print("a < b  :", a < b)
 print("a >= b :", a >= b)
 print("a <= b :", a <= b)
+
 #output:
 '''~~~~~~ COMPARISON OPERATORS ~~~~~~
    enter a:4
@@ -85,6 +89,7 @@ q = False
 print("p and q =", p and q)
 print("p or q =", p or q)
 print("not p =", not p)
+
 #output:
 '''~~~~~~ LOGICAL OPERATORS ~~~~~~
    p and q = False
@@ -96,6 +101,7 @@ print("\n~~~~~~ MEMBERSHIP OPERATORS ~~~~~~")
    print("'Python' in text =", "Python" in text)
    print("'Java' in text =", "Java" in text)
    print("'Java' not in text =", "Java" not in text)
+
 #output:
 '''~~~~~~ MEMBERSHIP OPERATORS ~~~~~~
     'Python' in text = True
@@ -109,6 +115,7 @@ list3 = [1, 2, 3]
 print("list1 is list2 =", list1 is list2)
 print("list1 is list3 =", list1 is list3)
 print("list1 is not list3 =", list1 is not list3)
+
 #output:
 '''~~~~~~ IDENTITY OPERATORS ~~~~~~
     list1 is list2 = True
@@ -124,6 +131,7 @@ print("m ^ n =", m ^ n)
 print("~m =", ~m)
 print("m << 1 =", m << 1)
 print("m >> 1 =", m >> 1)
+
 #output:
 '''~~~~~~ BITWISE OPERATORS ~~~~~~
     enter m:5
