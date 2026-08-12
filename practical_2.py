@@ -1,4 +1,4 @@
-#
+#list
 l=[5,4,3,2]
 print(l)
 print(type(l))
@@ -44,6 +44,7 @@ odd no. present in the list: [1, 3]
 last two second numbers: [2, 3]
 after extending set: [1, 2, 3, 5, 200, 100, 300]'''
 
+#tuple
 t=(10,15,20,25,30)
 print(type(t))
 print("count of 50:",t.count(50))
@@ -62,6 +63,7 @@ slice (15, 20)
 odd no. present in the list: [1, 3, 5]
 last two second numbers (20, 25)'''
 
+#set
 s={"a,b,c,d"}
 print(type(s))
 s.add("e")
@@ -74,6 +76,7 @@ print("after the removine one ele. of set:",s)
 after the addition of set: {'e', 'a,b,c,d'}
 after the removine one ele. of set: {'a,b,c,d'}'''
 
+#dictionary
 d={'a':1,'b':2,'c':3,'d':4,'e':5}
 print(type(d))
 print(d)
